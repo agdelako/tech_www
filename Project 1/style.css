@@ -1,0 +1,574 @@
+/* CSS Document */
+
+h1 {
+	font-size:250%;
+	font-family:"Georgia";
+
+	padding-left:20px;
+	
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+h1:first-letter{ 
+	font-size:220%;
+	font-weight:lighter;
+	font-style:oblique;
+	font-family:"Georgia";
+	
+	text-transform:lowercase;
+	vertical-align:-10px;
+	color:#CC0000;
+}
+
+h2{
+	font-family:"Georgia";
+	color:#CCCCCC;
+	
+	float:left;
+	
+	padding-left:20px;
+	padding-top:0px;
+}
+
+input[type="radio"]{
+	vertical-align:-29px;
+	float:inherit;
+}
+
+label{
+	vertical-align:-29px;
+	float:inherit;
+	font-family:"Georgia", Times, serif;
+	font-size:15px;
+}
+
+input[id="thumbnails"]:checked + label{
+    background:#DED9E6;
+}
+
+input[id="medium"]:checked + label{
+    background:#DED9E6;
+}
+
+input[id="large"]:checked + label{
+    background:#DED9E6;
+}
+
+/*************************************************CHECKED THUMBNAILS***********************************************************/
+
+input[id="thumbnails"]:checked ~ ul{
+
+	margin-left:20px;
+	margin-right:20px;
+	
+	
+	padding-left:0px;
+	width:950px;
+	
+	border-top-style:solid;
+    border-top-color:#CCCCCC;
+    border-top-width:5px; 
+	
+	border-bottom-style:solid;
+    border-bottom-color:#CCCCCC;
+    border-bottom-width:5px; 
+		
+	list-style-type:none;
+	
+	min-height:350px;
+
+}
+
+input[id="thumbnails"]:checked ~ ul[class="gallery"] img{
+	height:130px;
+	width:205px;
+	margin:5px;
+	border-width:10px;
+	
+	float:left;
+	
+	
+}
+
+input[id="thumbnails"]:checked ~ ul[class="gallery"] li a[href="http://www.flickr.com/photos/mcpig/2079437797/"]{
+	position:absolute;
+	width:191px;
+	
+	top:283px;
+	left:36px;
+	
+	padding: 12px;
+	padding-left:17px;
+	
+	font-size:16px;
+	font:Geneva, Arial, Helvetica, sans-serif;
+	line-height:100%;
+}
+
+input[id="thumbnails"]:checked ~ ul[class="gallery"] li a[href="http://www.flickr.com/photos/roboppy/240881250/"]{
+	position:absolute;
+	width:191px;
+	
+	top:299px;
+	left:275px;
+	
+	padding:10px;
+	
+	font-size:16px;
+	font:Geneva, Arial, Helvetica, sans-serif; 
+}
+
+input[id="thumbnails"]:checked ~ ul[class="gallery"] li a[href="http://www.flickr.com/photos/zeetzjones/442805346/"]{
+	position:absolute;
+	width:191px;
+	
+	top:299px;
+	left:510px;
+	
+	padding:10px;
+	
+	font-size:16px;
+	font:Geneva, Arial, Helvetica, sans-serif; 
+}
+
+input[id="thumbnails"]:checked ~ ul[class="gallery"] li a[href="http://www.flickr.com/photos/santos/126910029/"]{
+	position:absolute;
+	width:191px;
+	
+	top:299px;
+	left:742px;
+	
+	padding:10px;
+	
+	font-size:16px;
+	font:Geneva, Arial, Helvetica, sans-serif; 
+}
+
+input[id="thumbnails"]:checked ~ ul[class="gallery"] li a[href="http://www.flickr.com/photos/hermansaksono/4137053327/"]{
+	position:absolute;
+	width:191px;
+	
+	top:459px;
+	left:40px;
+	
+	padding:10px;
+	
+	font-size:16px;
+	font:Geneva, Arial, Helvetica, sans-serif; 
+}
+
+input[id="thumbnails"]:checked ~ ul[class="gallery"] li a[href="http://www.flickr.com/photos/strausser/131236358/"]{
+	position:absolute;
+	width:191px;
+	
+	top:439px;
+	left:275px;
+	
+	padding:10px;
+	
+	font-size:16px;
+	font:Geneva, Arial, Helvetica, sans-serif;
+	 
+}
+
+input[id="thumbnails"]:checked ~ ul[class="gallery"] li a[href="http://www.flickr.com/photos/veganfeast/4052214994/"]{
+	position:absolute;
+	width:191px;
+	
+	top:459px;
+	left:508px;
+	
+	padding:10px;
+	
+	font-size:16px;
+	font:Geneva, Arial, Helvetica, sans-serif; 
+}
+
+input[id="thumbnails"]:checked ~ ul[class="gallery"] li a[href="http://www.flickr.com/photos/_pixelmaniac_/3471348748/"]{
+	position:absolute;
+	width:191px;
+	
+	top:447px;
+	left:742px;
+	
+	padding:10px;
+	
+	font-size:16px;
+	font:Geneva, Arial, Helvetica, sans-serif; 
+	line-height:100%;
+}
+
+/*************************************************CHECKED MEDIUM***********************************************************/
+
+input[id="medium"]:checked ~ p[id="footer"]{
+	left:150px;
+}
+
+input[id="medium"]:checked ~ ul{
+
+	margin-left:20px;
+	margin-right:20px;
+	
+	max-width:1300px;
+	
+	padding-left:0px;
+	
+	border-top-style:solid;
+    border-top-color:#CCCCCC;
+    border-top-width:5px; 
+	
+	border-bottom-style:solid;
+    border-bottom-color:#CCCCCC;
+    border-bottom-width:5px; 
+		
+	list-style-type:none;
+	
+	min-height:1230px;
+
+}
+
+input[id="medium"]:checked ~ ul[class="gallery"] img{
+	height:250px;
+	width:395px;
+	margin:5px;
+	
+	float:left;
+
+	
+}
+
+
+input[id="medium"]:checked ~ ul[class="gallery"] li a[href="http://www.flickr.com/photos/mcpig/2079437797/"]{
+	position:absolute;
+	width:395px;
+	
+	top:409px;
+	left:40px;
+	
+	font-size:24px;
+	font:Geneva, Arial, Helvetica, sans-serif; 
+}
+
+input[id="medium"]:checked ~ ul[class="gallery"] li a[href="http://www.flickr.com/photos/roboppy/240881250/"]{
+	position:absolute;
+	width:395px;
+	
+	top:410px;
+	left:485px;
+	
+	font-size:24px;
+	font:Geneva, Arial, Helvetica, sans-serif; 
+}
+
+input[id="medium"]:checked ~ ul[class="gallery"] li a[href="http://www.flickr.com/photos/zeetzjones/442805346/"]{
+	position:absolute;
+	width:395px;
+	
+	top:709px;
+	left:40px;
+	
+	font-size:24px;
+	font:Geneva, Arial, Helvetica, sans-serif; 
+}
+
+input[id="medium"]:checked ~ ul[class="gallery"] li a[href="http://www.flickr.com/photos/santos/126910029/"]{
+	position:absolute;
+	width:395px;
+	
+	top:709px;
+	left:485px;
+	
+	font-size:24px;
+	font:Geneva, Arial, Helvetica, sans-serif; 
+}
+
+input[id="medium"]:checked ~ ul[class="gallery"] li a[href="http://www.flickr.com/photos/hermansaksono/4137053327/"]{
+	position:absolute;
+	width:395px;
+	
+	top:1009px;
+	left:40px;
+	
+	font-size:24px;
+	font:Geneva, Arial, Helvetica, sans-serif; 
+}
+
+input[id="medium"]:checked ~ ul[class="gallery"] li a[href="http://www.flickr.com/photos/strausser/131236358/"]{
+	position:absolute;
+	width:395px;
+	
+	top:1009px;
+	left:485px;
+	
+	font-size:24px;
+	font:Geneva, Arial, Helvetica, sans-serif;
+	 
+}
+
+input[id="medium"]:checked ~ ul[class="gallery"] li a[href="http://www.flickr.com/photos/veganfeast/4052214994/"]{
+	position:absolute;
+	width:395px;
+	
+	top:1309px;
+	left:40px;
+	
+	font-size:24px;
+	font:Geneva, Arial, Helvetica, sans-serif; 
+}
+
+input[id="medium"]:checked ~ ul[class="gallery"] li a[href="http://www.flickr.com/photos/_pixelmaniac_/3471348748/"]{
+	position:absolute;
+	width:395px;
+	
+	top:1309px;
+	left:485px;
+	
+	font-size:24px;
+	font:Geneva, Arial, Helvetica, sans-serif; 
+}
+
+/*********************************************************CHECKED LARGE******************************************************************/
+
+
+input[id="large"]:checked ~ ul {
+	margin-left:20px;
+	margin-right:20px;
+	
+	padding-top:15px;
+	padding-left:0px;
+	
+	border-top-style:solid;
+    border-top-color:#CCCCCC;
+    border-top-width:5px; 
+	
+	border-bottom-style:solid;
+    border-bottom-color:#CCCCCC;
+    border-bottom-width:5px; 
+	clear:both;
+	
+	list-style-type:none;
+	
+		
+}
+
+
+a[href="http://www.flickr.com/photos/mcpig/2079437797/"]{
+	position:absolute;
+	top:676px;
+	left:28px;
+	color: white; 
+	font:Geneva, Arial, Helvetica, sans-serif; 
+	font-variant:small-caps;
+	font-size:36px;
+	
+	
+	text-align:center;
+	text-decoration:none;
+	
+	width:810px;
+
+	background:#000000;
+	opacity:0.7;
+	padding: 15px;
+	
+	letter-spacing:2px;
+	
+	z-index:1;
+		
+}
+
+a[href="http://www.flickr.com/photos/roboppy/240881250/"]{
+	position:absolute;
+	top:1272px;
+	left:28px;
+	color: white; 
+	font:Geneva, Arial, Helvetica, sans-serif; 
+	font-variant:small-caps;
+	font-size:36px;
+	
+	text-align:center;
+	text-decoration:none;
+	
+	width:810px;
+
+	background:#000000;
+	opacity:0.7;
+	padding: 15px;
+	
+	letter-spacing:2px;
+	
+	z-index:1;
+	
+}
+
+a[href="http://www.flickr.com/photos/zeetzjones/442805346/"]{
+	position:absolute;
+	top:1987px;
+	left:28px;
+	color: white; 
+	font:Geneva, Arial, Helvetica, sans-serif; 
+	font-variant:small-caps;
+	font-size:36px;
+	
+	text-align:center;
+	text-decoration:none;
+	
+	width:810px;
+
+	background:#000000;
+	opacity:0.7;
+	padding: 15px;
+	
+	letter-spacing:2px;
+	
+	z-index:1;
+	
+}
+
+a[href="http://www.flickr.com/photos/santos/126910029/"]{
+	position:absolute;
+	top:2650px;
+	left:28px;
+	color: white; 
+	font:Geneva, Arial, Helvetica, sans-serif; 
+	font-variant:small-caps;
+	font-size:36px;
+	
+	text-align:center;
+	text-decoration:none;
+	
+	width:810px;
+
+	background:#000000;
+	opacity:0.7;
+	padding: 15px;
+	
+	letter-spacing:2px;
+	
+	z-index:1;
+	
+}
+
+a[href="http://www.flickr.com/photos/hermansaksono/4137053327/"]{
+	position:absolute;
+	top:3309px;
+	left:28px;
+	color: white; 
+	font:Geneva, Arial, Helvetica, sans-serif; 
+	font-variant:small-caps;
+	font-size:36px;
+	
+	text-align:center;
+	text-decoration:none;
+	
+	width:810px;
+
+	background:#000000;
+	opacity:0.7;
+	padding: 15px;
+	
+	letter-spacing:2px;
+	
+	z-index:1;
+	
+}
+
+a[href="http://www.flickr.com/photos/strausser/131236358/"]{
+	position:absolute;
+	top:3948px;
+	left:28px;
+	color: white; 
+	font:Geneva, Arial, Helvetica, sans-serif; 
+	font-variant:small-caps;
+	font-size:36px;
+	
+	text-align:center;
+	text-decoration:none;
+	
+	width:810px;
+
+	background:#000000;
+	opacity:0.7;
+	padding: 15px;
+	
+	letter-spacing:2px;
+	
+	z-index:1;
+	
+}
+
+a[href="http://www.flickr.com/photos/veganfeast/4052214994/"]{
+	position:absolute;
+	top:4535px;
+	left:28px;
+	color: white; 
+	font:Geneva, Arial, Helvetica, sans-serif; 
+	font-variant:small-caps;
+	font-size:36px;
+	
+	text-align:center;
+	text-decoration:none;
+	
+	width:810px;
+
+	background:#000000;
+	opacity:0.7;
+	padding: 15px;
+	
+	letter-spacing:2px;
+	
+	z-index:1;
+	
+}
+
+a[href="http://www.flickr.com/photos/_pixelmaniac_/3471348748/"]{
+	position:absolute;
+	top:5130px;
+	left:28px;
+	color: white; 
+	font:Geneva, Arial, Helvetica, sans-serif; 
+	font-variant:small-caps;
+	font-size:36px;
+	
+	text-align:center;
+	text-decoration:none;
+	
+	width:810px;
+
+	background:#000000;
+	opacity:0.7;
+	padding: 15px;
+	
+	letter-spacing:2px;
+	
+	z-index:1;
+	
+}
+
+img{
+	border-color:#000000;
+	border-style:solid;
+	border-width:20px;
+	
+	
+}
+
+p[id="footer"]{
+	font-family:"Georgia", Times, serif;
+	color:#666666;
+	text-align:center;
+	white-space:pre;
+	
+	clear:both;
+
+}
+
+small{
+	color:#989898;
+}
+
+a[href="http://flickr.com"]{
+	font-family:"Georgia", Times, serif;
+	color:#989898;
+}
