@@ -1,0 +1,210 @@
+/* CSS Document */
+body{	
+	padding-right:0px;
+	
+	font-family:"Palatino Linotype";
+	background-color:#F3F1E4;
+	}
+	
+img{
+	display:none;
+	}
+	
+div[id="language_skills"] table{
+		display:none;}
+
+h2[id="resume"]{
+	display:none;
+	}
+
+h2[id="cv"]{
+	font-variant:small-caps;	
+	vertical-align:top;
+	
+	border-bottom:solid;
+	border-bottom-color:#666666;
+	border-bottom-width:1px;
+	
+	padding-left:10px;
+
+	}
+	
+h3{
+	padding-left:10px;
+	font-variant:small-caps;
+	font-weight:bolder;
+	font-size:22px;
+	}
+	
+/***********************************************************************PERSONAL INFORMATION**************************************************************************************/
+	
+div[id="personal_info"] h4[id="name"],
+						h4[id="date"],
+						h4[id="address"],
+						h3[id="per_info"]{
+	display:none;
+	}
+	
+div[id="personal_info"] ul[class="info"]{	
+	list-style-type:none;
+	text-align:center;
+	
+	border-bottom:solid;
+	border-bottom-color:#666666;
+	border-bottom-width:1px;
+	
+	padding-bottom:20px;
+	border-left:none;
+	}
+	
+div[id="personal_info"] h4[id="tel"],
+						h4[id="mob"],
+						h4[id="mail"]{
+	display:inline;
+	}
+	
+div[id="personal_info"] label[for="name"]{
+	font-variant:small-caps;
+	font-size:20px;
+	font-weight:bold;
+	}
+	
+/*********************************************************************************EDUCATION***************************************************************************************/
+	
+div[id="education"]{
+	border-bottom:solid;
+	border-bottom-color:#666666;
+	border-bottom-width:1px;
+		
+	padding-top:10px;
+	padding-right:0px;
+	
+	}
+	
+div[id="education"] h4{
+	display:none;
+	
+	}
+	
+div[id="education"] ul[class="edu"]{
+	left:320px;
+	position:relative;
+	top:-45px;
+	list-style:none;
+	}
+
+div[id="education"] label[for="name_org1"],
+					label[for="name_org2"]{
+	font-size:16px;
+	font-weight:bolder;
+	}
+	
+div[id="education"] label[id="city1"],
+					label[id="city2"]{
+	font-size:14px;
+	font-weight:lighter;
+	font-style:oblique;
+	}
+
+/***************************************************************************************WORK***************************************************************************************/
+
+div[id="work_experience"]{
+	border-bottom:solid;
+	border-bottom-color:#666666;
+	border-bottom-width:1px;
+		
+	padding-top:10px;
+	padding-right:0px;
+	
+	}
+	
+div[id="work_experience"] h4{
+	display:none;
+	
+	}
+	
+div[id="work_experience"] ul[class="work"]{
+	left:320px;
+	position:relative;
+	top:-45px;
+	
+	list-style:none;
+	}
+	
+div[id="work_experience"] label[for="name_emp"]{
+	font-size:16px;
+
+	font-weight:bolder;
+	text-decoration:underline;
+	}
+	
+div[id="work_experience"] label[id="where"]{
+	font-weight:lighter;
+	font-size:12px;
+	}
+	
+div[id="work_experience"] label[for="activ"]{
+	font-style:oblique;
+	font-size:15px;
+	}
+	
+/********************************************************************LANGUAGE SKILLS*******************************************************************************************/
+
+div[id="language_skills"]{
+	border-bottom:solid;
+	border-bottom-color:#666666;
+	border-bottom-width:1px;
+		
+	padding-top:10px;
+	padding-right:0px;
+	
+	}
+
+div[id="language_skills"] ul[class="l_skills"]{
+	left:320px;
+	position:relative;
+	top:-45px;
+	list-style:none;
+	}
+	
+div[id="language_skills"] h4[id="en"],
+						  h4[id="de"]{
+	display:inline;
+	
+	}
+	
+div[id="language_skills"] h4[id="tongue"],
+						  h4[id="other"],
+						  label[for="tongue"]{
+	display:none;	
+	}
+	
+/**********************************************************************PERSONAL SKILLS*******************************************************************************************/
+
+div[id="personal_skills"]{
+	border-bottom:solid;
+	border-bottom-color:#666666;
+	border-bottom-width:1px;
+		
+	padding-top:10px;
+	padding-right:0px;	
+	}
+
+div[id="personal_skills"] ul[class="p_skills"]{
+	left:320px;
+	position:relative;
+	top:-70px;
+	}
+	
+div[id="personal_skills"] h4{
+	display:inline;
+	
+	}
+
+/********************************************************************TECHNICAL SKILLS********************************************************************************************/
+
+div[id="technical_skills"] ul[class="t_skills"]{
+	left:320px;
+	position:relative;
+	top:-45px;
+	}

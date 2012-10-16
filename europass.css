@@ -1,0 +1,135 @@
+/* CSS Document */
+
+div[id="content"] ul{
+	list-style:none;}
+
+body h4,
+	 h3{
+	display:inline;
+	padding-left:25px;
+	}
+
+body h2[id="resume"],
+	 img{
+	display:none;
+	}
+	
+h4[id="mob"]{
+	position:relative;
+	left:430px;}
+	
+table{
+	text-align:center;
+	left:452px;
+	top:-30px;
+	position:relative;
+	}
+	
+h4[id="en"]{
+	top:47px;
+	left:280px;
+	position:relative;}
+	
+h4[id="de"]{
+	top:-54px;
+	left:278px;
+	position:relative;}
+	
+label{
+	position:relative;
+	text-align:left;
+	left:700px;
+	}
+	
+label[for="name"]{
+	left:270px;}
+
+label[for="date"]{
+	left:323px;}
+	
+label[for="address"]{
+	left:356px;}
+
+label[for="tel"]{
+	left:342px;}
+	
+label[for="mob"]{
+	left:436px;}
+	
+label[for="mail"]{
+	left:374px;}
+	
+label[for="dates1"]{
+	left:373px;}
+	
+label[for="name_org1"]{
+	left:77px;}
+
+label[id="city1"]{
+	left:448px;}
+	
+label[for="title1"]{
+	left:221px;}
+	
+label[for="dates2"]{
+	left:373px;}
+	
+label[for="name_org2"]{
+	left:77px;}
+
+label[id="city2"]{
+	left:448px;}
+	
+label[for="title2"]{
+	left:221px;}
+	
+label[for="datesw"]{
+	left:373px;}
+	
+label[for="name_emp"]{
+	left:205px;}
+	
+label[id="where"]{
+	left:448px;}
+
+label[for="pos"]{
+	left:232px;}
+	
+label[for="activ"]{
+	left:183px;}
+	
+label[id="activ2"]{
+	left:266px;}
+	
+label[for="tongue"]{
+	left:316px;}
+	
+label[for="social"]{
+	left:339px;}
+	
+label[id="social2"]{
+	left:113px;}
+	
+label[for="org"]{
+	left:282px;}
+	
+label[id="org2"]{
+	left:171px;}
+	
+label[for="art"]{
+	left:332px;}
+	
+ul[class="t_skills"]{
+	list-style:normal;
+	left:-248px;
+	position:relative;}
+
+
+div[id="language_skills"] label[for="en"],
+						  label[for="de"]{
+		display:none;
+		}
+		
+div[id="language_skills"] h4{
+	}
+	

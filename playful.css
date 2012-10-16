@@ -1,0 +1,249 @@
+/* CSS Document */
+div[id="content"]{
+	font-family:"Century Gothic";
+	position:relative;
+	top:-20px;
+	left:470px;
+	}
+
+h2[id="resume"]{
+	color:#E10811;
+	font-family:"Arial Narrow";
+	font-weight:bolder;
+	font-size:40px;	
+	
+	text-decoration:underline;
+	text-transform:uppercase;
+	
+	padding-left:40px;
+	position:relative;
+	left:470px;
+	}
+	
+h2[id="cv"]{
+	display:none;
+}
+
+div[id="language_skills"] table{
+		display:none;}
+	
+
+
+/********************************************************************personal information****************************************************************************************/
+
+div[id="personal_info"] img{
+	position:absolute;
+	left:-180px;
+	top:-50px;}
+
+div[id="personal_info"] h4[id="name"],
+						h4[id="date"],
+						h4[id="address"],
+						h3[id="per_info"]{
+	display:none;
+	}
+	
+div[id="personal_info"] h4[id="tel"],
+						h4[id="mob"],
+						h4[id="mail"]{
+	display:inline;
+	
+	}
+	
+div[id="personal_info"] ul[class="info"]{
+	color:#E10811;
+	list-style:none;
+	font-weight:bold;
+	}
+	
+div[id="personal_info"] label[for="name"]{
+	text-transform:lowercase;
+	font-size:30px;
+	font-weight:bolder;}
+	
+/***********************************************************************education & training*************************************************************************************/
+
+div[id="education"] img{
+	position:absolute;
+	left:-210px;
+	top:-25px;
+	}
+
+div[id="education"] h4{
+	display:none;
+	
+	}
+	
+div[id="education"] h3{
+	text-transform:lowercase;
+	color:#F79B1C;
+	font-size:30px;
+	font-weight:bolder;
+	padding-left:40px;}
+	
+div[id="education"] ul[class="edu"]{
+	color:#F79B1C;
+	list-style:none;
+	font-weight:bold;
+	position:relative;
+	top:-30px;
+	}
+
+div[id="education"] label[for="name_org1"],
+					label[for="name_org2"]{
+	font-size:17px;
+	font-weight:bolder;
+	}
+	
+div[id="education"] label[id="city1"],
+					label[id="city2"]{
+	font-size:14px;
+	font-weight:lighter;
+	font-style:oblique;
+	}
+	
+/*************************************************************************work experience****************************************************************************************/
+
+div[id="work_experience"] img{
+	position:absolute;
+	left:-215px;
+	top:-55px;
+	}
+
+div[id="work_experience"]{
+	top:-30px;
+	position:relative;
+	}
+	
+div[id="work_experience"] h4{
+	display:none;
+	
+	}
+	
+div[id="work_experience"] h3{
+	text-transform:lowercase;
+	color:#F4DC00;
+	font-size:30px;
+	font-weight:bolder;
+	padding-left:40px;}
+	
+div[id="work_experience"] ul[class="work"]{	
+	list-style:none;
+	color:#F4DC00;
+	font-weight:bold;
+	position:relative;
+	top:-30px;
+	}
+	
+div[id="work_experience"] label[for="name_emp"]{
+	font-size:18px;
+
+	font-weight:bolder;
+	}
+	
+div[id="work_experience"] label[id="where"]{
+	font-weight:lighter;
+	font-size:14px;
+	}
+	
+div[id="work_experience"] label[for="activ"]{
+	font-style:oblique;
+	font-size:15px;
+	}
+	
+/************************************************************************language**************************************************************************************************/
+
+div[id="language_skills"] img{
+	position:absolute;
+	left:-220px;
+	top:-45px;
+	}
+
+div[id="language_skills"]{
+	top:-55px;
+	position:relative;
+	}
+
+div[id="language_skills"] h3{
+	text-transform:lowercase;
+	color:#A3D538;
+	font-size:30px;
+	font-weight:bolder;
+	padding-left:40px;}
+
+
+div[id="language_skills"] ul[class="l_skills"]{
+	color:#A3D538;
+	position:relative;
+	top:-30px;
+	list-style:none;
+	}
+	
+div[id="language_skills"] h4[id="tongue"],
+						  h4[id="en"],
+						  h4[id="de"]{
+	display:inline;
+	
+	}
+		
+/****************************************************************************personal skills************************************************************************************/
+
+div[id="personal_skills"] img{
+	position:absolute;
+	left:-240px;
+	top:-45px;
+	}
+
+div[id="personal_skills"]{
+	position:relative;
+	top:-85px;}
+
+div[id="personal_skills"] h3{
+	text-transform:lowercase;
+	color:#0A90CD;
+	font-size:30px;
+	font-weight:bolder;
+	padding-left:40px;
+	line-height:30px;}
+
+div[id="personal_skills"] ul[class="p_skills"]{
+	color:#0A90CD;
+	position:relative;
+	top:-30px;
+	left:15px;
+	}
+	
+div[id="personal_skills"] h4{
+	display:inline;
+	text-decoration:underline;
+	}
+div[id="personal_skills"] ul[class="p_skills"] label{	
+	font-weight:bolder;
+	}
+	
+/**************************************************************technical skills*************************************************************************************************/
+
+div[id="technical_skills"] img{
+	position:absolute;
+	left:-170px;
+	top:-55px;
+	}
+
+div[id="technical_skills"]{
+	position:relative;
+	top:-110px;}
+
+div[id="technical_skills"] h3{
+	text-transform:lowercase;
+	color:#871867;
+	font-size:30px;
+	font-weight:bolder;
+	padding-left:40px;}
+
+div[id="technical_skills"] ul[class="t_skills"]{
+	color:#871867;
+	font-weight:bolder;
+	left:15px;
+	position:relative;
+	top:-30px;
+	}
