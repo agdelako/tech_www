@@ -41,7 +41,7 @@ public class Registration extends HttpServlet {
         try {
             Class.forName("com.mysql.jdbc.Driver");
             connect =DriverManager.getConnection
-            ("jdbc:mysql://localhost:3306/ImageStuck","root","53042583");
+            ("jdbc:mysql://localhost:3306/ImageStuck","root","password");
             statement = connect.createStatement();
              
             String username = request.getParameter("username");
