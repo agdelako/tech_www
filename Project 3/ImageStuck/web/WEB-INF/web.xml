@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>JavaXML</servlet-name>
+        <servlet-class>JavaXML</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Home</servlet-name>
+        <servlet-class>Home</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DBConnect</servlet-name>
+        <servlet-class>DBConnect</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Registration</servlet-name>
+        <servlet-class>Registration</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditImage</servlet-name>
+        <servlet-class>EditImage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JavaXML</servlet-name>
+        <url-pattern>/JavaXML</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DBConnect</servlet-name>
+        <url-pattern>/DBConnect.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Registration</servlet-name>
+        <url-pattern>/Registration.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditImage</servlet-name>
+        <url-pattern>/EditImage.do</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

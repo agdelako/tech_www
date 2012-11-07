@@ -1,0 +1,89 @@
+h1{
+    font-family: "Arial Rounded MT Bold";
+    font-size: 300%;
+    
+    position: absolute;
+    left: 190px;
+    top: 25px;
+}
+
+h1 a:link,a:visited,a:active {
+    text-decoration: none;
+    color: black;
+}
+
+h1 a:hover{
+    text-decoration: none;
+    color:slategray;
+}
+
+h4{
+    font-family: "Arial Rounded MT Bold";
+    position: absolute;
+    left: 190px;
+    top: 90px;
+}
+
+h4[id="logout"]{
+    font-family: "Arial Rounded MT Bold";
+    position: absolute;
+    left:90%;
+}
+
+h4[id="logout"] a:link,a:visited,a:active {
+    text-decoration: none;
+    color: black;
+}
+
+h4[id="logout"] a:hover{
+    text-decoration: none;
+    color:slategray;
+}
+
+img[alt="logo"]{
+    position: absolute;
+    left: 50px;
+    
+}
+
+div[id="header"]{
+    width: 100%;
+    height: 165px;
+    background-image: linear-gradient(bottom, #F2DEBD 21%, #F0D8AF 34%, #D9C195 81%);
+    background-image: -o-linear-gradient(bottom, #F2DEBD 21%, #F0D8AF 34%, #D9C195 81%);
+    background-image: -moz-linear-gradient(bottom, #F2DEBD 21%, #F0D8AF 34%, #D9C195 81%);
+    background-image: -webkit-linear-gradient(bottom, #F2DEBD 21%, #F0D8AF 34%, #D9C195 81%);
+    background-image: -ms-linear-gradient(bottom, #F2DEBD 21%, #F0D8AF 34%, #D9C195 81%);
+
+    background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.21, #F2DEBD),
+	color-stop(0.34, #F0D8AF),
+	color-stop(0.81, #D9C195)
+    );
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+}
+
+ul[class="gallery"]{
+    list-style: none;
+    
+}
+
+ul[class="gallery"] li{
+    width: 450px;
+    height: 310px;
+    float:left;
+    overflow: hidden;
+}
+
+ul[class="gallery"] li img{
+    width: 400px;
+    height: 260px;
+    
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+}

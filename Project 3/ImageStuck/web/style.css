@@ -1,0 +1,53 @@
+
+body{
+    background-color: #d9c195;
+    
+}
+
+img { 
+    position: fixed;
+    left:50%;
+    top:50%;
+    
+    margin-top: -300px;
+    margin-left: -350px;
+    
+}
+
+div[id="register-content"]{
+    position: fixed;
+    left:50%;
+    top:50%;
+    
+    margin-top: -70px;
+    margin-left: -170px;
+}
+
+form[method="post"]{
+    font-family: "Arial Rounded MT Bold";
+    color:azure;
+}
+
+/*Firefox*/
+@-moz-document url-prefix()  {
+p[id="pswd"]{
+    margin-left:2%;
+}
+
+p[id="mail"]{
+    margin-left:17%;
+}
+}
+
+p[id="pswd"]{
+    margin-left:3px;
+}
+
+p[id="mail"]{
+    margin-left:38px;
+}
+
+input[value="Submit"]{
+    position: fixed;
+    margin-left: 183px;
+}

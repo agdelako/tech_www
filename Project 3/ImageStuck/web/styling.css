@@ -1,0 +1,36 @@
+body{
+    background-color: #d9c195;
+    
+}
+
+img { 
+    position: fixed;
+    left:50%;
+    top:50%;
+    
+    margin-top: -300px;
+    margin-left: -350px;
+    
+}
+
+div[id="login-content"]{
+    position: fixed;
+    left:50%;
+    top:50%;
+    
+    margin-top: -30px;
+    margin-left: -170px;
+}
+
+form[method="post"]{
+    font-family: "Arial Rounded MT Bold";
+    color:azure;
+}
+
+p[id="pswd"]{
+    margin-left:3px;
+}
+
+input[class="button"]{
+    top: -10%;
+}
