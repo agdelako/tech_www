@@ -32,13 +32,22 @@ public class RequestListener implements ServletRequestListener {
         
        int tempDay, tempMonth;
         
+        /* Get current date */
         Date date = new Date();
+        
+        /* Create a calendar */
         Calendar calendar = GregorianCalendar.getInstance();
+        
+        /* assign calendar to given date */
         calendar.setTime(date); 
         
+        /* Get current Day */
         tempDay = calendar.get(Calendar.DAY_OF_MONTH);
+        
+        /* Get current Month */
         tempMonth = calendar.get(Calendar.MONTH);
         
+        /* Initialize variables */
         if (Month == -1 ){
             
             lastDay = tempDay;
@@ -52,6 +61,7 @@ public class RequestListener implements ServletRequestListener {
             
         totalEdits++;
  
+            /* If one month has passed, empty array */
             if ( tempMonth - Month  > 1 ){
 
                 for (int i = 1; i < 32 ; i++){
@@ -59,7 +69,7 @@ public class RequestListener implements ServletRequestListener {
                 }
 
             }
-
+            /* It's the same month */
             if ( tempMonth - Month == 0){
 
                 TotalMonthEdits[tempDay]++;
@@ -91,7 +101,8 @@ public class RequestListener implements ServletRequestListener {
     synchronized public void WriteRequestsData( ){
 
         try{
-
+ 
+            /* Write Total Edits data */
             FileWriter fstream = new FileWriter("/usr/local/tomcat/webapps/imagestuck/data.json");
             BufferedWriter out = new BufferedWriter(fstream);
             out.write("{\n   \"label\": \"Monthly Image Edits \",");
